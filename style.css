@@ -1,0 +1,142 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0;
+    margin-left: 30px;
+  
+  }
+  h2{
+    text-align: center;
+    text-decoration: dotted;
+  }
+  .icon-cart{
+    position: relative;
+    margin-right: 90px;
+    color: #0f0f0fd0;
+
+  }
+  .icon-cart span{
+    display: flex;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(15, 199, 30);
+    justify-content: center;
+    align-items: center;
+    color: #050505d3;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    right: -10px;
+  }
+  
+  #productsContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 60px;
+    background-color: burlywood;
+    
+  }
+  
+  .product {
+    border: 1px solid #7c7979;
+    padding: 80px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .product img {
+    max-width: 100px;
+    height: 200px;
+  }
+  
+  .product h3 {
+    margin-top: 5px;
+    font-size: 25px;
+  }
+  
+  .product p {
+    margin-top: 5px;
+    font-size: 25px;
+  }
+  
+  input{
+    padding: 10px;
+    margin-right: 20px;
+    border-radius: 5px;
+    border: 1px solid #1b1a1adc;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #050505c2;
+    color: rgb(245, 248, 246);
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #12d142;
+  } 
+  
+  footer {
+    background-color: #333; 
+    padding: 20px;
+    background-color: #928383;
+    text-align: center;
+    color: #131414de; 
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+  }
+  
+  
+  
+ 
+  body.dark-mode {
+    background-color: #333;
+    color: #f0f0f0;
+  }
+  /* Hide cart popup by default */
+  .cart-popup {
+    display: none;
+  }
+  
+  /* Show cart popup when it has the 'show' class */
+  .cart-popup.show {
+    display: block;
+  }
+  
+  
+  
+  button:hover {
+    background-color: #0ad889;
+  }
+  
+  .hide {
+    display: none;
+  }
+  
+  #shoppingCart {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  
+  
+  
